@@ -3,6 +3,15 @@ entries:
   job-runner:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2023-10-13T08:02:36.708543593Z"
+    description: A Helm chart for Kubernetes job
+    digest: c2995b7d0300767acd1146c4f8caf5a41fcefc451c4bd4a7c7d30e806fe7a55d
+    name: job-runner
+    urls:
+    - https://github.com/indragiri/job-runner/releases/download/job-runner-1.0.2/job-runner-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2023-09-25T07:40:39.066398664Z"
     description: A Helm chart for Kubernetes job
     digest: 9a810cd96a996bc75fd51b665887bcd529a91a19703e4bf0b2de2b8a3e5e7ec4
@@ -10,4 +19,4 @@ entries:
     urls:
     - https://github.com/indragiri/job-runner/releases/download/job-runner-1.0.1/job-runner-1.0.1.tgz
     version: 1.0.1
-generated: "2023-09-25T07:40:39.066404864Z"
+generated: "2023-10-13T08:02:36.708553693Z"
