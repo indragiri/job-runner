@@ -27,6 +27,8 @@ spec:
         release: {{ .Release.Name }}
     spec:
       restartPolicy: Never
+      imagePullSecrets:
+        - name: {{ .Values.job.imagePullSecrets.name }}
       containers:
       - command:
 {{ toYaml .Values.job.command | indent 10 }}
